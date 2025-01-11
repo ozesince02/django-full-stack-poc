@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'full_stack_poc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database_name',
-        'USER': 'username',
-        'PASSWORD': 'password',
+        'NAME': 'poc',
+        'USER': 'postgres',
+        'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '5432',
     }
